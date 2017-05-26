@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/view2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_user_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_edge"
+            android:gravity="center"
+            android:text="账号："
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_normal_size" />
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@mipmap/edit"
+            android:gravity="center_vertical"
+            android:paddingLeft="10px"
+            android:textSize="@dimen/textview_small_size" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_edge"
+            android:gravity="center"
+            android:text="密码："
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_normal_size" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@mipmap/edit"
+            android:gravity="center_vertical"
+            android:inputType="textPassword"
+            android:paddingLeft="10px"
+            android:textSize="@dimen/textview_small_size" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <CheckBox
+            android:id="@+id/cb_remember_psw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_edge"
+            android:button="@drawable/checkbox_selector"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/bg_textview"
+            android:text="@string/remember_psw"
+            android:textSize="@dimen/textview_small_size" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:padding="5dp">
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="@string/login"
+        android:textColor="#ffffff"
+        android:background="@drawable/bg_button_selector"
+        android:textSize="@dimen/textview_normal_size"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+
+    <TextView
+        android:id="@+id/txt_version_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="版本号："
+        android:textSize="@dimen/abc_text_size_caption_material" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:id="@+id/tv_city_login"
+        android:textSize="@dimen/abc_text_size_caption_material"
+        android:layout_gravity="center"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="西安千百网络科技有限公司@2017版权所有"
+        android:textSize="@dimen/abc_text_size_caption_material" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+
+</LinearLayout>

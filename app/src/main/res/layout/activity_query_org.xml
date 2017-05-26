@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_query_org"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/top_bg_color"
+    android:orientation="vertical"
+    tools:context="com.xaqb.policenw.QueryOrgActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_edge"
+            android:gravity="center"
+            android:text="辖区名称："
+            android:textColor="#000000"
+            />
+        <EditText
+            android:id="@+id/et_name_org"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawablePadding="10px"
+            android:hint="请选择辖区名称"
+            android:paddingLeft="10px"
+            android:focusable="false"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="@dimen/textview_smalls_size" />
+
+        <ImageView
+            android:id="@+id/iv_clear_org"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/padding"
+            android:visibility="gone"
+            android:src="@mipmap/clean"/>
+
+        <ImageView
+            android:id="@+id/iv_org_org"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/searchx48"/>
+
+    </LinearLayout>
+    <LinearLayout style="@style/common_horizontal_division_line_style" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:padding="@dimen/padding">
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_edge"
+            android:gravity="center"
+            android:text="企业成立时间："
+            android:textColor="#000000"
+            />
+
+        <EditText
+            android:id="@+id/et_start_org"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawablePadding="10px"
+            android:hint="请选择时间"
+            android:paddingLeft="10px"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="@dimen/textview_smalls_size" />
+
+        <ImageView
+            android:id="@+id/iv_start_clean_org"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/padding"
+            android:visibility="gone"
+            android:src="@mipmap/clean"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@mipmap/searchx48"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/common_horizontal_division_line_style" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:padding="@dimen/padding">
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_edge"
+            android:gravity="center"
+            android:text="企业截止时间："
+            android:textColor="#000000"
+            />
+
+        <EditText
+            android:id="@+id/et_end_org"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawablePadding="10px"
+            android:hint="请选择时间"
+            android:paddingLeft="10px"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="@dimen/textview_smalls_size" />
+
+        <ImageView
+            android:id="@+id/iv_end_clean_org"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/padding"
+            android:visibility="gone"
+            android:src="@mipmap/clean"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@mipmap/searchx48"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/common_horizontal_division_line_style" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/bt_query_org"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_button_selector"
+        android:padding="10dp"
+        android:text="查询"
+        android:textColor="#ffffff"
+        />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="transparentFrameWindowStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/photo_choose_bg</item>
+    </style>
+    <!--侵入式状态栏-->
+    <style name="immersion_status">
+        <item name="android:clipToPadding">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!--水平分割线Style-->
+    <style name="common_horizontal_division_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.7dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#bbbbbb</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+    </style>
+
+</resources>

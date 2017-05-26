@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout style="@style/common_horizontal_division_line_style" />
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/activity_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:layout_marginLeft="10dp"
+                android:padding="@dimen/activity_textview_pading">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="货 运  单 号："
+                    android:textSize="@dimen/textview_normals_size"/>
+                <TextView
+                    android:id="@+id/txt_code_query"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout style="@style/common_horizontal_division_line_style" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="@dimen/activity_textview_pading">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="企 业  名 称："
+                    android:textSize="@dimen/textview_normals_size"/>
+                <TextView
+                    android:id="@+id/txt_company_query"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout style="@style/common_horizontal_division_line_style" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="@dimen/activity_textview_pading">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="员 工  名 称："
+                    android:textSize="@dimen/textview_normals_size"/>
+                <TextView
+                    android:id="@+id/txt_per_query"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout style="@style/common_horizontal_division_line_style" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="@dimen/activity_textview_pading">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="物 品  名 称："
+                    android:textSize="@dimen/textview_normals_size"/>
+                <TextView
+                    android:id="@+id/txt_name_query"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout style="@style/common_horizontal_division_line_style" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="@dimen/activity_textview_pading">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="证 件  号 码："
+                    android:textSize="@dimen/textview_normals_size"/>
+                <TextView
+                    android:id="@+id/txt_mancert_code_query"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout style="@style/common_horizontal_division_line_style" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="@dimen/activity_textview_pading">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="采 集  类 型："
+                    android:textSize="@dimen/textview_normals_size"
+                    android:id="@+id/textView2" />
+
+                <TextView
+                    android:id="@+id/txt_type_query"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout style="@style/common_horizontal_division_line_style" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="@dimen/activity_textview_pading"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收件人电话："
+                    android:textSize="@dimen/textview_normals_size"/>
+                <TextView
+                    android:id="@+id/txt_des_phone_query"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout style="@style/common_horizontal_division_line_style" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="@dimen/activity_textview_pading">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="寄件人电话："
+                    android:textSize="@dimen/textview_normals_size"/>
+                <TextView
+                    android:id="@+id/txt_phone_query"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout style="@style/common_horizontal_division_line_style" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="@dimen/activity_textview_pading">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="采 集  地 址："
+                    android:textSize="@dimen/textview_normals_size"/>
+                <TextView
+                    android:id="@+id/txt_address_query"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout style="@style/common_horizontal_division_line_style" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="@dimen/activity_textview_pading">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上 传  时 间："
+                    android:textSize="@dimen/textview_normals_size"/>
+                <TextView
+                    android:id="@+id/txt_time_query"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout style="@style/common_horizontal_division_line_style" />
+
+
+            <Button
+                android:id="@+id/bt_query_query"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/margin_edge"
+                android:layout_marginRight="@dimen/margin_edge"
+                android:layout_marginTop="30px"
+                android:background="@drawable/bg_button_selector_query"
+                android:text="@string/query_"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/button_normal_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:id="@+id/view" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7" />
+
+
+</LinearLayout>
