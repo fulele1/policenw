@@ -54,7 +54,7 @@
         <meta-data
             android:name="BUGLY_ENABLE_DEBUG"
             android:value="isDebug" />
-        //高德
+        <!--高德-->
         <meta-data
             android:name="com.amap.api.v2.apikey"
             android:value="4b4e8f6ace3d13cdba1f0e8d526582a9" />
@@ -66,6 +66,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".LoginActivity"
             android:screenOrientation="portrait"
@@ -83,21 +84,66 @@
             android:name=".FindKeyActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_find_key" />
-        <activity android:name=".TotalActivity" />
-        <activity android:name=".QueryPerActivity" />
-        <activity android:name=".QueryComActivity" />
-        <activity android:name=".ComActivity" />
-        <activity android:name=".PerActivity" />
-        <activity android:name=".FinishActivity" />
-        <activity android:name=".PerDetailActivity" />
-        <activity android:name=".ComDetailActivity" />
-        <activity android:name=".SearchComsActivity" />
-        <activity android:name=".UpdateActivity" />
-        <activity android:name=".ChooseActivity" />
-        <activity android:name=".QueryOrgActivity" />
-        <activity android:name=".OrgDetailActivity" />
-        <activity android:name=".SearchOrgActivity" />
-        <activity android:name=".MapActivity" />
+        <activity android:name=".TotalActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
+        <activity android:name=".QueryPerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
+        <activity android:name=".QueryComActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
+        <activity android:name=".ComActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
+        <activity android:name=".PerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
+        <activity android:name=".FinishActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
+        <activity android:name=".PerDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
+        <activity android:name=".ComDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
+        <activity android:name=".SearchComsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
+        <activity android:name=".UpdateActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
+        <activity android:name=".ChooseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
+        <activity android:name=".QueryOrgActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
+        <activity android:name=".OrgDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
+        <activity android:name=".SearchOrgActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
+        <activity android:name=".MapActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_find_key"
+            />
     </application>
 
 </manifest>

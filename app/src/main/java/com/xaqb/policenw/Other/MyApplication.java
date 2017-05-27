@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 import okhttp3.OkHttpClient;
 
 /**
- * Created by lenovo on 2017/3/6.
+ * Created by fl on 2017/3/6.
  */
 
 public class MyApplication  extends Application{

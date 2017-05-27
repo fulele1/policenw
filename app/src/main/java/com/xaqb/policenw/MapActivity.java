@@ -69,7 +69,6 @@ public class MapActivity extends Activity {
             marker.setTitle(title);
             aMap.moveCamera(CameraUpdateFactory.changeLatLng(latLng));
         }
-
     }
 
     @Override
