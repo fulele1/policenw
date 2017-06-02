@@ -15,6 +15,7 @@ import com.xaqb.policenw.Listview.BrandAdapter;
 import com.xaqb.policenw.Listview.BrandBean;
 import com.xaqb.policenw.Listview.LetterIndexView;
 import com.xaqb.policenw.Listview.PinnedSectionListView;
+import com.xaqb.policenw.Utils.LogUtils;
 import com.xaqb.policenw.db.SQLdm;
 
 import java.text.Collator;
@@ -67,8 +68,8 @@ public class SearchComsActivity extends BaseActivity {
         adapter = new BrandAdapter(this, list_show, map_IsHead);
         listView.setAdapter(adapter);
         // 开启异步加载数据
-
         getData();
+
     }
 
 

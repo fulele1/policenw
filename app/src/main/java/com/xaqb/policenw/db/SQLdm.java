@@ -11,15 +11,15 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * Created by lenovo on 2017/3/29.
+ * Created by fl on 2017/3/29.
  */
 
 public class SQLdm {
 
     //数据库存储路径
-    String filePath = "data/data/com.xaqb.police/BRAND.db";
+    String filePath = "data/data/com.xaqb.policenw/BRAND.db";
     //数据库存放的文件夹 data/data/com.main.jh 下面
-    String pathStr = "data/data/com.xaqb.police";
+    String pathStr = "data/data/com.xaqb.policenw";
 
     SQLiteDatabase database;
     public SQLiteDatabase openDatabase(Context context){
